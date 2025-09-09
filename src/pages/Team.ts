@@ -17,6 +17,35 @@ export default function Team(): string {
             <li>Strong communicator with a track record of mentoring, documentation, and cross-team collaboration.</li>
         </ul>
     </section>
+      <section class="card">
+      <h2>Teammate Two</h2>
+      <p class="muted">Frontend Designer & UI Specialist</p>
+      <p>
+        Focused on creating intuitive and accessible user interfaces with a passion for
+        user-centered design.
+      </p>
+      <h3>Resume Highlights</h3>
+      <ul>
+        <li>Designed responsive web applications using modern frameworks.</li>
+        <li>Strong background in accessibility and cross-browser compatibility.</li>
+        <li>Collaborated closely with backend teams to integrate APIs seamlessly.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Teammate Two</h2>
+      <p class="muted">Frontend Designer & UI Specialist</p>
+      <p>
+        Focused on creating intuitive and accessible user interfaces with a passion for
+        user-centered design.
+      </p>
+      <h3>Resume Highlights</h3>
+      <ul>
+        <li>Designed responsive web applications using modern frameworks.</li>
+        <li>Strong background in accessibility and cross-browser compatibility.</li>
+        <li>Collaborated closely with backend teams to integrate APIs seamlessly.</li>
+      </ul>
+    </section>
             `
 
 }
