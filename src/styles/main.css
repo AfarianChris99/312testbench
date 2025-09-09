@@ -177,3 +177,18 @@ footer small {
 .ttt-reset:hover {
   border-color: var(--accent);
 }
+
+.calc-wrap { max-width: 360px; margin-top: 1.25rem; }
+.calc-status { margin: .25rem 0 .5rem; color: var(--muted); font-weight: 600; }
+.calc-display {
+  width: 100%; padding: .6rem .75rem; border-radius: var(--radius);
+  border: 1px solid #2f343c; background: transparent; color: var(--text);
+  font-size: 1.1rem; margin-bottom: .5rem;
+}
+.calc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .5rem; }
+.calc-key, .calc-eq, .calc-back {
+  padding: .75rem 0; border-radius: var(--radius); border: 1px solid #2f343c;
+  background: transparent; color: var(--text); font-weight: 700; cursor: pointer;
+}
+.calc-key:hover, .calc-eq:hover, .calc-back:hover { border-color: var(--accent); }
+.calc-actions { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; margin-top: .5rem; }
