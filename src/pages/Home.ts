@@ -9,7 +9,7 @@ export const Home = () =>
       <h3>Tech Stack</h3>
       <ul>
         <li>HTML5 • CSS3 • JavaScript • TypeScript</li>
-        <li>Vite • Jest • Azure Static Web Apps</li>
+        <li>Vite • Jest </li>
       </ul>
     </div>
     <div class="card">
