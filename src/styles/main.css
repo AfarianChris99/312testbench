@@ -113,3 +113,67 @@ ul li {
 footer small {
   color: var(--muted);
 }
+
+.ttt-wrap {
+  margin: 1.25rem 0;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  max-width: 360px;
+}
+
+.ttt-title { margin: 0 0 .5rem; }
+
+.ttt-status {
+  margin: .25rem 0 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.ttt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: .5rem;
+  justify-content: start;   /* keep tight to the left inside the card */
+}
+
+.ttt-cell {
+  width: 90px;
+  height: 90px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text);
+  background: transparent;
+  border: 2px solid #2f343c;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.ttt-cell:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.ttt-cell:disabled {
+  opacity: .75;
+  cursor: not-allowed;
+}
+
+.ttt-cell.win {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.ttt-reset {
+  margin-top: .75rem;
+  padding: .4rem .9rem;
+  border-radius: var(--radius);
+  border: 1px solid #2f343c;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.ttt-reset:hover {
+  border-color: var(--accent);
+}
