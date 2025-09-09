@@ -1,0 +1,1 @@
+import {initTicTacToe} from '../projects/tictactoe/tictactoe';
