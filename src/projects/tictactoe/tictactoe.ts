@@ -1,6 +1,8 @@
-export function initTicTacToe(root: HTMLElement){
+
 type Player = 'X' | 'O';
 type Cell = Player | '';
+
+export function initTicTacToe(root: HTMLElement){
 const WIN = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
 
 let board : Cell[] = Array(9).fill('');
@@ -10,7 +12,7 @@ let winner: Player | 'Draw' | null = null;
 root.innerHTML= `
 <div class="ttt-wrap">
     <div class="ttt-status"></div>
-    <div class="ttt-grid" role="grid></div>
+    <div class="ttt-grid" role="grid"></div>
     <button class="ttt-reset" type"button">Reset</button>
 </div>
 `;
@@ -30,7 +32,7 @@ const setStatus = () => {
 
 const render = () => {
     gridElement.innerHTML = '';
-    board.forEach((val: Cell, i: Number) => {
+    board.forEach((val: Cell, i: number) => {
         const btn = document.createElement('button');
         btn.className = 'ttt-cell';
         btn.type = 'button';
