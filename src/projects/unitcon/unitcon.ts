@@ -1,8 +1,8 @@
 
 export function UnitConverter(): string {
-  return /* html */ `
+  return  `
     <section class="container" id="uc-host">
-      <h2>Unit Converter (TypeScript)</h2>
+      <h2>Unit Converter</h2>
       <p>Convert between Celsius ↔ Fahrenheit and Meters ↔ Feet.</p>
 
       <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
@@ -55,7 +55,7 @@ export function initUnitConverter(scope: Document | HTMLElement = document): voi
   const host = root.querySelector('#uc-host') as HTMLElement | null;
   if (!host) return;
 
-  // ---- Temperature
+ 
   const tVal  = host.querySelector('#uc-temp-value')   as HTMLInputElement | null;
   const tFrom = host.querySelector('#uc-temp-from')    as HTMLSelectElement | null;
   const tTo   = host.querySelector('#uc-temp-to')      as HTMLSelectElement | null;

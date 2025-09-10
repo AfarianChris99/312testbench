@@ -34,17 +34,18 @@ export default function Team(): string {
     </section>
 
     <section class="card">
-      <h2>Teammate Two</h2>
-      <p class="muted">Frontend Designer & UI Specialist</p>
+      <h2>Ian Freeby</h2>
+      <p class="muted">RF Communications specialist</p>
       <p>
-        Focused on creating intuitive and accessible user interfaces with a passion for
-        user-centered design.
+        born in South Dakota but raised in Washington and grew up surrounded by tradesmen of all calibers,
+        instilling in me a strong work ethic. I've served my country honorably and am ready to branch out into a new career on the civilian side
       </p>
       <h3>Resume Highlights</h3>
       <ul>
-        <li>Designed responsive web applications using modern frameworks.</li>
-        <li>Strong background in accessibility and cross-browser compatibility.</li>
-        <li>Collaborated closely with backend teams to integrate APIs seamlessly.</li>
+        <li>2 years as C5 aircraft mechanic performing inspections and general maintenance on C5M Super Galaxy
+        aircraft. Travelled often with aircraft for voluntary high level maintenance to bolster proficiency</li>
+        <li>Quality Assurance Inspector (QA Inspector)</li>
+        <li>• Collaborated with production team to identify and resolve quality issues in a timely manner</li>
       </ul>
     </section>
             `
