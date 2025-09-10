@@ -18,17 +18,18 @@ export default function Team(): string {
         </ul>
     </section>
       <section class="card">
-      <h2>Teammate Two</h2>
-      <p class="muted">Frontend Designer & UI Specialist</p>
+      <h2>Douglas Fisher</h2>
+      <p class="muted">B.S. Applied Computer Science Candidate</p>
       <p>
-        Focused on creating intuitive and accessible user interfaces with a passion for
-        user-centered design.
+        U.S. Navy veteran and computer science student with experience in programming,
+        web development, and cybersecurity.
       </p>
-      <h3>Resume Highlights</h3>
+      <h3>Resume</h3>
       <ul>
-        <li>Designed responsive web applications using modern frameworks.</li>
-        <li>Strong background in accessibility and cross-browser compatibility.</li>
-        <li>Collaborated closely with backend teams to integrate APIs seamlessly.</li>
+          <li>Experience with HTML5, CSS3, JavaScript, and TypeScript</li>
+          <li>Experience with Git/GitHub version control and collaborative development</li>
+          <li>Background in cybersecurity concepts including the CIA triad</li>
+          <li>Strong teamwork and leadership skills from military service</li>
       </ul>
     </section>
 
