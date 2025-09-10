@@ -1,4 +1,6 @@
 import './styles/main.css';
+import { UnitConverterPage } from './pages/unitconpage';
+import { initUnitConverter, UnitConverter } from './projects/unitcon/unitcon';
 import { Router } from './router';
 import { initNav } from './components/Nav';
 import { Home } from './pages/Home';
@@ -7,8 +9,6 @@ import { initTicTacToe } from './projects/tictactoe/tictactoe';
 import { initCalculator } from './projects/calculator/calculator'
 import Team from './pages/Team';
 import Contact from './pages/Contact';
-import { initUnitConverter } from './projects/unitcon/unitcon';
-import { UnitConverterPage } from './pages/un'
 const app = document.getElementById('app')!;
 (document.getElementById('year') as HTMLElement).textContent = String(new Date().getFullYear());
 initNav();
@@ -23,18 +23,15 @@ router.register({
 
     const calc = document.getElementById('calculator');
     if (calc) initCalculator(calc as HTMLElement);
+    
+    const ucRoot = document.getElementById('unitconv-root');
+    if (ucRoot) {
+      ucRoot.innerHTML = UnitConverter();
+      initUnitConverter(document);
+    }
   }
 });
 router.register({path: '/team', render: Team});
-
-router.register({
-  path: '/unitconverter',
-  render: UnitConverterPage,
-  onMount: () => {
-    // init against the app container or document
-    initUnitConverter(document);
-  }
-});
 router.register({
   path: '/contact',
   render: Contact,

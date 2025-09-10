@@ -7,7 +7,10 @@ export default function Project(): string {
       <h2>Tic-tac-toe</h2>
       <div id="tictactoe"></div>
     </section>
-
+    <section>
+      <h2> Unit Converter </h2>
+      <div id= "unitconv-root"></div>
+    </section>
     <section>
       <h2>Calculator</h2>
       <div id="calculator"></div>

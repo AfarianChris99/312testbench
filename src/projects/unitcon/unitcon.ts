@@ -1,6 +1,3 @@
-// Unit Converter (TypeScript)
-// Renders markup and provides an init() that wires up click handlers.
-// IDs are prefixed with "uc-" to avoid collisions.
 
 export function UnitConverter(): string {
   return /* html */ `
@@ -56,7 +53,7 @@ export function UnitConverter(): string {
 export function initUnitConverter(scope: Document | HTMLElement = document): void {
   const root = scope instanceof Document ? scope : scope.ownerDocument ?? document;
   const host = root.querySelector('#uc-host') as HTMLElement | null;
-  if (!host) return; // HTML not mounted yet
+  if (!host) return;
 
   // ---- Temperature
   const tVal  = host.querySelector('#uc-temp-value')   as HTMLInputElement | null;
